@@ -10,7 +10,7 @@ body {
 header {
     font-family: 'satisfy', cursive;
     font-size: 25px;
-    background-color: rgb(87, 11, 11);
+    background-image: linear-gradient(to right, rgb(92, 5, 5), rgb(206, 195, 198));
     padding: 50px;
     margin-top: 0;
     /*display: flex;*/
@@ -24,20 +24,32 @@ h2 {
 nav {
     position: sticky;
     top: 20px;
-    background-color: rgb(241, 236, 236);
-    border: 8px solid rgb(37, 5, 5);
+    background-color: black(0, 0, 0, .5);
+    /*border: 8px solid rgb(87, 82, 82);*/
+}
+
+nav a {
+    color: #ddd;
+    padding: 0 2.5em;
+    text-decoration: none;
+    transition: 1s;
+}
+
+nav a:hover {
+    background: rgba(102, 89, 89, 0.5);
+    transition: 2s;
 }
 
 .menu ul {
     display: flex;
     list-style: none;
     justify-content: space-around;
+    background-color: black;
 }
 
 ul {
     font-size: 0;
     font-family: 'roboto', sans-serif;
-    color: rgb(128, 128, 128);
 }
 
 .menu li {
@@ -81,6 +93,15 @@ p {
 
 .segundo__parrafo {
     color: sienna;
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    grid-template-rows: minmax(20px, auto);
+    justify-items: center;
+    align-items: end;
 }
 
 .imagenes {
@@ -147,6 +168,25 @@ img {
     align-items: center;
     padding: 20px;
     background-color: rgb(145, 139, 139);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    grid-template-rows: minmax(20px, auto);
+    justify-items: center;
+}
+
+.prendas div {
+    border: solid 0.50px;
+    padding 2px;
+    background-color: black;
+}
+
+.container img:hover {
+    transform: scale(1.2);
+    transition: all 2s linear;
 }
 
 .box__footer {

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,53 +11,93 @@
     <link rel="stylesheet" href="../estilos/style.css">
 
 </head>
+
 <body>
-    
+
 </body>
 
 <header>
     <h1>Milongueras</h1>
     <h2>Ropa para bailar tango</h2>
-    
-    </header>
 
-    <nav>
+</header>
+
+<nav>
+    <div class="menu">
         <ul>
             <li>
                 <a href="../index.html">Inicio</a>
-    
+
             </li>
 
             <li>
                 <a href="prendas.html">Prendas</a>
-                <ul>
-                    <li> <a href="">Tango salón</a></li>
+                <ul class="submenu">
+                    <li> <a href="tango salon.html">Tango salón</a></li>
                     <li> <a href="">Tango casual</a></li>
                     <li> <a href="">Tango escenario</a></li>
                 </ul>
-    
+
             </li>
 
             <li>
-                
+
                 <a href="novedades.html">Novedades</a>
-    
+
             </li>
             <li>
                 <a href="milongueras.html">Milongueras</a>
-    
-    
+
+
             </li>
             <li>
-                
+
                 <a href="contacto.html">Contacto</a>
             </li>
-           
-        </ul>
-    
-    </nav> 
 
-<img src="../imagenes/vestidoespalda.jpg" alt="vestido con espalda descubierta">
+        </ul>
+    </div>
+
+</nav>
+
+
+
+<p>Tango salón</p>
+
+<section class="container">
+    <section class="grid">
+        <div><img src="../imagenes/salon1.jpg" alt=""></div>
+        <div><img src="../imagenes/elegante1.jpg" alt=""></div>
+        <div><img src="../imagenes/elegante2.jpg" alt=""></div>
+        <div><img src="../imagenes/elegante3.jpg" alt=""></div>
+    </section>
+
+    <p> Tango Casual</p>
+
+    <section class="grid">
+
+        <div><img src="../imagenes/vestidoespalda.jpg" alt="vestido con espalda descubierta"></div>
+        <div><img src="../imagenes/casual1.jpg" alt=""></div>
+        <div><img src="../imagenes/casual2.jpg" alt=""></div>
+        <div><img src="../imagenes/casual3.jpg" alt=""></div>
+        <div><img src="../imagenes/casual4.jpg" alt=""></div>
+        <div><img src="../imagenes/casual1.jpgs" alt=""></div>
+    </section>
+
+    <p> Tango escenario</p>
+
+
+    <section class="grid">
+
+        <div><img src="../imagenes/vestidoespalda.jpg" alt="vestido con espalda descubierta"></div>
+        <div><img src="../imagenes/casual1.jpg" alt=""></div>
+        <div><img src="../imagenes/casual2.jpg" alt=""></div>
+        <div><img src="../imagenes/casual3.jpg" alt=""></div>
+        <div><img src="../imagenes/casual4.jpg" alt=""></div>
+        <div><img src="../imagenes/casual1.jpgs" alt=""></div>
+    </section>
+
+</section>
 
 <form>
     <div>Seleccione un talle</div>
@@ -66,29 +107,29 @@
      <option value="S">Small</option>
     </select>
 
-    
-<form>
-    <div>Seleccione un color</div>
-    <select name="colores">
+
+    <form>
+        <div>Seleccione un color</div>
+        <select name="colores">
      <option value="B">Blanco</option>
      <option value="N">Negro</option>
      <option value="R">Rojo</option>
     </select>
-    
-
-</form>
-
-<form>
-    <div>Agregar al carrito</div>
-    <input type="checkbox"name="acepta"value="1"/>
-</form>
 
 
-<footer>
-    <div class="container__footer">
-        <div class="box__footer">
-            <h2 class="logo">Milongueras</h2>
-         </div>
+    </form>
+
+    <form>
+        <div>Agregar al carrito</div>
+        <input type="checkbox" name="acepta" value="1" />
+    </form>
+
+
+    <footer>
+        <div class="container__footer">
+            <div class="box__footer">
+                <h2 class="logo">Milongueras</h2>
+            </div>
         </div>
         <div class="container__footer">
             <div class="box__footer">
@@ -100,6 +141,6 @@
 
         </div>
 
-</footer>
+    </footer>
 
 </html>
