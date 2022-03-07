@@ -19,9 +19,11 @@ h2 {
 
 nav {
     position: sticky;
-    top: 20px;
+    /* top: 20px; */
+    top: 0px;
     background-color: black(0, 0, 0, .5);
     /*border: 8px solid rgb(87, 82, 82);*/
+    z-index: 100;
 }
 
 nav a {
@@ -72,6 +74,45 @@ ul {
     top: 0;
 }
 
+.contenedor {
+    position: relative;
+    text-align: center;
+}
+
+#fondo {
+    object-fit: cover;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    object-position: center top;
+}
+
+.texto-encima {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-family: 'satisfy', cursive;
+    color: azure;
+    font-size: 200%;
+}
+
+@media screen and (min-width: 640px) {
+    .texto-encima {}
+}
+
+@media screen and (min-width: 1200px) {
+    .texto-encima {
+        ;
+    }
+}
+
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(37, 5, 5);
@@ -120,7 +161,7 @@ p {
     }
 }
 
-img {
+.container img {
     max-height: 500px;
     display: block;
     width: auto;
@@ -176,13 +217,17 @@ img {
 
 .prendas div {
     border: solid 0.50px;
-    padding 2px;
+    padding: 2px;
     background-color: black;
 }
 
 .container img:hover {
     transform: scale(1.2);
     transition: all 2s linear;
+}
+
+.fondo {
+    background-image: linear-gradient(to rgb(87, 87, 17), rgba(236, 201, 46, 0.377), rgb(139, 134, 103));
 }
 
 .box__footer {
