@@ -5,9 +5,9 @@
 
 header {
     font-family: 'satisfy', cursive;
-    font-size: 25px;
-    background-image: linear-gradient(to right, rgb(92, 5, 5), rgb(206, 195, 198));
-    padding: 50px;
+    font-size: 13px;
+    background-image: linear-gradient(to right, rgb(59, 5, 5), rgb(206, 195, 198));
+    padding: 17px;
     margin-top: 0;
     /*display: flex;*/
 }
@@ -241,7 +241,7 @@ p {
 
 footer {
     color: silver;
-    background-color: rgb(87, 11, 11);
+    background-image: linear-gradient(to right, rgb(46, 3, 3), rgb(206, 195, 198));
     padding: 60px;
     margin-bottom: 0;
     margin-top: 40px;
