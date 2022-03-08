@@ -74,12 +74,76 @@ ul {
     top: 0;
 }
 
-.contenedor {
+
+/* imagen con leyenda */
+
+
+/*.contenedor {
     position: relative;
-    text-align: center;
+    top: 0px;
+     max-width: 90%;
+    min-height: 90%;
+
+background: url("../imagenes/fondo2.jpg");
+
+/*background-size: 100% 100%;*/
+
+
+/*
+
+.contenedor h1 {
+    position: absolute;
+    left: 20px;
+    top: 70px;
+    transform: translateY(-110%);
+    transition: all .3s ease;
 }
 
-#fondo {
+.contenedor p {
+    position: absolute;
+    left: 20px;
+    top: 130px;
+    transform: translateX(120%);
+    transition: all .3s ease;
+}
+
+.contenedor:before {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    transition: all .3s ease;
+}
+
+.contenedor:after {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    transition: all .3s ease;
+}
+
+.contenedor:hover:before {
+    width: 100%;
+}
+
+.contenedor:hover:after {
+    width: 100%;
+}
+
+.contenedor:hover:h1,
+.contenedor:hover p {
+    transform: translateX(0%);
+    transition: all .3s ease;
+}*/
+
+.fondo {
     object-fit: cover;
     max-width: 100%;
     min-width: 100%;
