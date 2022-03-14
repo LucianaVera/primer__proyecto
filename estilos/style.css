@@ -74,101 +74,73 @@ ul {
     top: 0;
 }
 
-
-/* imagen con leyenda */
-
-
-/*.contenedor {
+.contenedor {
     position: relative;
-    top: 0px;
-     max-width: 90%;
-    min-height: 90%;
-
-background: url("../imagenes/fondo2.jpg");
-
-/*background-size: 100% 100%;*/
-
-
-/*
-
-.contenedor h1 {
-    position: absolute;
-    left: 20px;
-    top: 70px;
-    transform: translateY(-110%);
-    transition: all .3s ease;
+    padding: 0%;
+    background-image: linear-gradient(to right, rgb(14, 13, 13), rgb(206, 195, 198));
 }
 
-.contenedor p {
-    position: absolute;
-    left: 20px;
-    top: 130px;
-    transform: translateX(120%);
-    transition: all .3s ease;
+.contenedor .fondo {
+    width: 95%;
+    max-width: 550px;
+    margin: 30px auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    overflow: hidden;
+    transition: all 500ms ease-out;
 }
 
-.contenedor:before {
+.contenedor .fondo .capa {
     position: absolute;
-    top: 10px;
-    left: 20px;
-    content: "";
-    width: 0%;
-    height: 2px;
-    background: #fff;
-    transition: all .3s ease;
-}
-
-.contenedor:after {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    content: "";
-    width: 0%;
-    height: 2px;
-    background: #fff;
-    transition: all .3s ease;
-}
-
-.contenedor:hover:before {
+    top: 0;
     width: 100%;
+    height: 100%;
+    background: rgba(102, 89, 89, 0.5);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
 }
 
-.contenedor:hover:after {
-    width: 100%;
+.contenedor .fondo:hover>.capa {
+    opacity: 1;
+    visibility: visible;
 }
 
-.contenedor:hover:h1,
-.contenedor:hover p {
-    transform: translateX(0%);
-    transition: all .3s ease;
-}*/
-
-.fondo {
-    object-fit: cover;
-    max-width: 100%;
-    min-width: 100%;
-    height: auto;
-    object-position: center top;
+.contenedor .fondo:hover>.capa {
+    margin-top: 1px;
+    margin-bottom: 50px;
 }
 
-.texto-encima {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    font-family: 'satisfy', cursive;
-    color: azure;
-    font-size: 200%;
+.contenedor .fondo .capa {
+    color: #ddd;
+    margin-bottom: 60px;
+    transition: all 500ms ease-out;
+    margin-top: 100px;
+    font-family: satisfy, cursive;
+    font-size: 50px;
+    line-height: 1.5;
+    margin: auto;
 }
 
-@media screen and (min-width: 640px) {
+.contenedor .fondo:hover {
+    transform: scale(1.1);
+}
+
+
+/* .contenedor . @media screen and (min-width: 640px) {
     .texto-encima {}
-}
+} */
 
-@media screen and (min-width: 1200px) {
+
+/* @media screen and (min-width: 1200px) {
     .texto-encima {
         ;
     }
-}
+} */
 
 .centrado {
     position: absolute;
@@ -305,7 +277,7 @@ p {
 
 footer {
     color: silver;
-    background-image: linear-gradient(to right, rgb(46, 3, 3), rgb(206, 195, 198));
+    background-image: linear-gradient(to right, rgb(17, 14, 14), rgb(206, 195, 198));
     padding: 60px;
     margin-bottom: 0;
     margin-top: 40px;
