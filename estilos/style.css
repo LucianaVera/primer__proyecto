@@ -6,7 +6,7 @@
 header {
     font-family: 'satisfy', cursive;
     font-size: 13px;
-    background-image: linear-gradient(to right, rgb(59, 5, 5), rgb(206, 195, 198));
+    background-image: linear-gradient(to right, #3b0505, #cec3c6);
     padding: 17px;
     margin-top: 0;
     /*display: flex;*/
@@ -21,7 +21,7 @@ nav {
     position: sticky;
     /* top: 20px; */
     top: 0px;
-    background-color: black(0, 0, 0, .5);
+    background-color: black(0, 0, 0, 0.5);
     /*border: 8px solid rgb(87, 82, 82);*/
     z-index: 100;
 }
@@ -69,7 +69,7 @@ ul {
     position: relative;
 }
 
-.menu li:hover .submenu>li {
+.submenu li:hover .submenu>li {
     display: block;
     top: 0;
 }
@@ -77,7 +77,7 @@ ul {
 .contenedor {
     position: relative;
     padding: 0%;
-    background-image: linear-gradient(to right, rgb(14, 13, 13), rgb(206, 195, 198));
+    background-image: linear-gradient(to right, #0e0d0d, #cec3c6);
 }
 
 .contenedor .fondo {
@@ -88,7 +88,7 @@ ul {
     display: flex;
     align-items: center;
     border-radius: 6px;
-    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     transition: all 500ms ease-out;
 }
@@ -103,19 +103,6 @@ ul {
     opacity: 0;
     visibility: hidden;
     text-align: center;
-}
-
-.contenedor .fondo:hover>.capa {
-    opacity: 1;
-    visibility: visible;
-}
-
-.contenedor .fondo:hover>.capa {
-    margin-top: 1px;
-    margin-bottom: 50px;
-}
-
-.contenedor .fondo .capa {
     color: #ddd;
     margin-bottom: 60px;
     transition: all 500ms ease-out;
@@ -124,6 +111,13 @@ ul {
     font-size: 50px;
     line-height: 1.5;
     margin: auto;
+}
+
+.contenedor .fondo:hover>.capa {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 1px;
+    margin-bottom: 50px;
 }
 
 .contenedor .fondo:hover {
@@ -151,9 +145,9 @@ ul {
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(37, 5, 5);
+    color: #250505;
     padding: 10px;
-    border: 4px solid rgb(128, 128, 128);
+    border: 4px solid gray;
     margin-right: 90px;
     margin-top: 40px;
     margin-left: 90px;
@@ -206,6 +200,11 @@ p {
     align-self: stretch;
 }
 
+.container img:hover {
+    transform: scale(1.2);
+    transition: all 2s linear;
+}
+
 .contacto {
     max-height: 500px;
     display: block;
@@ -216,7 +215,7 @@ p {
 
 .cajacontenedora {
     display: flex;
-    background-color: rgb(207, 205, 203);
+    background-color: #cfcdcb;
     font-family: 'roboto', sans-serif;
     color: black;
     margin-top: 20px;
@@ -240,7 +239,7 @@ p {
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-    background-color: rgb(145, 139, 139);
+    background-color: #918b8b;
 }
 
 .grid {
@@ -257,13 +256,8 @@ p {
     background-color: black;
 }
 
-.container img:hover {
-    transform: scale(1.2);
-    transition: all 2s linear;
-}
-
 .fondo {
-    background-image: linear-gradient(to rgb(87, 87, 17), rgba(236, 201, 46, 0.377), rgb(139, 134, 103));
+    background-image: linear-gradient(to #575711, rgba(236, 201, 46, 0.377), #8b8667);
 }
 
 .box__footer {
@@ -277,7 +271,7 @@ p {
 
 footer {
     color: silver;
-    background-image: linear-gradient(to right, rgb(17, 14, 14), rgb(206, 195, 198));
+    background-image: linear-gradient(to right, #110e0e, #cec3c6);
     padding: 60px;
     margin-bottom: 0;
     margin-top: 40px;

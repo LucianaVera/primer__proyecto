@@ -1,0 +1,19 @@
+{
+    "name": "proyecto-coder",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "compilar": "node-sass --include-path sass sass/estilo.scss estilos/style.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LucianaVera/primer__proyecto.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LucianaVera/primer__proyecto/issues"
+    },
+    "homepage": "https://github.com/LucianaVera/primer__proyecto#readme"
+}
