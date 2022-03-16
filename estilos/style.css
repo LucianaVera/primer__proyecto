@@ -3,14 +3,23 @@
     margin: 0;
 }
 
-header {
+.logo {
+    width: 12%;
+    height: 12%;
+    padding: 1%;
+}
+
+
+/* header {
     font-family: 'satisfy', cursive;
     font-size: 13px;
     background-image: linear-gradient(to right, #3b0505, #cec3c6);
     padding: 17px;
     margin-top: 0;
     /*display: flex;*/
-}
+
+
+/*}
 
 h2 {
     font-family: 'roboto', sans-serif;
@@ -20,11 +29,14 @@ h2 {
 nav {
     position: sticky;
     /* top: 20px; */
-    top: 0px;
-    background-color: black(0, 0, 0, 0.5);
+
+
+/* background-color: black(0, 0, 0, 0.5);
     /*border: 8px solid rgb(87, 82, 82);*/
-    z-index: 100;
-}
+
+
+/*  z-index: 100;/*
+}/*
 
 nav a {
     color: #ddd;
@@ -72,18 +84,18 @@ ul {
 .submenu li:hover .submenu>li {
     display: block;
     top: 0;
-}
+} */
 
 .contenedor {
     position: relative;
     padding: 0%;
-    background-image: linear-gradient(to right, #0e0d0d, #cec3c6);
+    background-image: linear-gradient(to right, #0e0d0d, #d36683);
 }
 
 .contenedor .fondo {
     width: 95%;
     max-width: 550px;
-    margin: 30px auto;
+    margin: 0px auto;
     position: relative;
     display: flex;
     align-items: center;
