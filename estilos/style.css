@@ -89,7 +89,7 @@ ul {
 .contenedor {
     position: relative;
     padding: 0%;
-    background-image: linear-gradient(to right, #0e0d0d, #d36683);
+    background-image: linear-gradient (to left, #3b2d2d, #5c5355, red);
 }
 
 .contenedor .fondo {
@@ -286,5 +286,5 @@ footer {
     background-image: linear-gradient(to right, #110e0e, #cec3c6);
     padding: 60px;
     margin-bottom: 0;
-    margin-top: 40px;
+    margin-top: 0px;
 }
