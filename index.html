@@ -68,29 +68,60 @@
     </nav>
 
 
-    <div class="contenedor">
-        <div class="fondo"> <img src="./imagenes/fondo2.jpg" alt="">
-            <div class="capa">
+    <div class="imagenesCarousel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagenes/carousel1.jpg" class="d-block w-100" alt="...">
+                </div>
 
-                <h3>Disfruta de tu baile vistiendote cómoda y elegante</h3>
+                <div class="carousel-item">
+                    <img src="./imagenes/carousel2.jpg" class="d-block w-100 hid" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/carousel3.jpg" class="d-block w-100" alt="...">
+                </div>
             </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
-    <footer>
-        <div class="container__footer">
-            <div class="box__footer">
-                <h2 class="logo">Milongueras</h2>
-            </div>
+
+
+
+    <footer class="footer-distributed">
+
+        <div class="footer-right">
+
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+
         </div>
-        <div class="container__footer">
-            <div class="box__footer">
-                <h4>Envios</h4>
-                <h4>Terminos y condiciones</h4>
-                <h4>Privacidad</h4>
 
-            </div>
+        <div class="footer-left">
 
+            <p class="footer-links">
+                <a class="link-1" href="index.html">Inicio</a>
+
+                <a href="./secciones/novedades.html">Novedades</a>
+
+                <a href="./secciones/milongueras.html">Milongueras</a>
+
+                <a href="./secciones/contacto.html">Contactos</a>
+
+                <a href="./secciones/prendas.html">Prendas</a>
+            </p>
+
+            <p>Milongueras &copy; 2022</p>
         </div>
 
     </footer>
