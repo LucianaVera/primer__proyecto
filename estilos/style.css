@@ -4,7 +4,7 @@
 }
 
 .logo {
-    width: 12%;
+    width: 13%;
     height: 12%;
     padding: 1%;
 }
@@ -15,7 +15,7 @@
     padding: 0 30%;
     /*grid-template-columns: 60%;*/
     align-items: center;
-    background-image: linear-gradient(#c5b7b7, rgb(119, 108, 108));
+    background-image: linear-gradient(#141313, rgb(110, 106, 106));
 }
 
 .contenedor .fondo:hover>.capa {
@@ -54,25 +54,35 @@
     color: #140707;
     padding: 10px;
     border: 2px solid gray;
-    margin-right: 4%;
-    margin-top: 0%;
-    margin-left: 4%;
+    margin-right: 6%;
+    margin-top: 1%;
+    margin-left: 7%;
     margin-bottom: 3%;
+    border-radius: 10%;
 }
 
 .card-text {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 1%;
     border: 2px solid;
+    border-radius: 10%;
 }
 
 .videos {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1em;
-    grid-template-rows: minmax(20px, auto);
+    grid-template-columns: 90%;
     justify-items: center;
-    align-items: end;
+    align-items: flex-start;
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: 3%;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 1200px) {
+    .videos {
+        grid-template-columns: 45% 45%;
+    }
 }
 
 .videosFondo {
@@ -81,10 +91,10 @@
 
 .imagenes {
     display: grid;
-    padding: 20px;
+    padding: 5px;
     grid-template-columns: 90%;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 @media screen and (min-width: 640px) {
@@ -160,7 +170,7 @@
 
 .prendas div {
     border: solid 0.20px;
-    padding: 1px;
+    padding: 0px;
     background-color: black;
 }
 
@@ -173,9 +183,10 @@
 
 .novedades {
     display: grid;
-    grid-template-columns: 50% 50% 20%;
-    grid-template-rows: 40% 30% 30%;
-    background-color: #b67885;
+    padding: 5px;
+    grid-template-columns: 90%;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .separar {
@@ -190,11 +201,11 @@
 }
 
 .novedadesImg {
-    max-height: 10%;
-    grid-template-columns: auto, auto, auto;
-    margin-top: 3%;
-    margin-left: 5%;
-    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30%;
+    /*grid-template-columns: 60%;*/
+    align-items: center;
 }
 
 
@@ -278,6 +289,7 @@
     line-height: 35px;
     margin-left: 3px;
     transition: all .25s;
+    text-decoration: none;
 }
 
 .footer-distributed .footer-right a:hover {
