@@ -15,5 +15,8 @@
     "bugs": {
         "url": "https://github.com/LucianaVera/primer__proyecto/issues"
     },
-    "homepage": "https://github.com/LucianaVera/primer__proyecto#readme"
+    "homepage": "https://github.com/LucianaVera/primer__proyecto#readme",
+    "devDependencies": {
+        "node-sass": "^7.0.1"
+    }
 }

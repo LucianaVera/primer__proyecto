@@ -1,0 +1,43 @@
+.padre {
+    display: grid;
+    grid-template-columns: 95%;
+    background-color: #33383b;
+}
+
+@media screen and (min-width: 640px) {
+    .padre {
+        grid-template-columns: 48% 48%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .padre {
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .padre {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
+
+.padre .card {
+    height: 400px;
+}
+
+.padre .card img {
+    object-fit: contain;
+    height: 300px;
+}
+
+.novedades h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1%;
+    border: 2px solid;
+    border-radius: 10%;
+    background: #ccc;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}

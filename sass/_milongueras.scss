@@ -1,0 +1,40 @@
+.texto {
+    display: grid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #140707;
+    padding: 10px;
+    border: 2px solid gray;
+    margin-right: 6%;
+    margin-top: 1%;
+    margin-left: 7%;
+    margin-bottom: 3%;
+    border-radius: 10%;
+}
+
+.card-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1%;
+    border: 2px solid;
+    border-radius: 10%;
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: 90%;
+    justify-items: center;
+    align-items: flex-start;
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: 3%;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 1200px) {
+    .videos {
+        grid-template-columns: 45% 45%;
+    }
+}
+
+.videosFondo {
+    background-image: linear-gradient(white, grey, rgb(7, 4, 4));
+}
