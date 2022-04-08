@@ -132,7 +132,7 @@
 
 .cajacontenedora {
     display: flex;
-    background-color: #cfcdcb;
+    background-image: linear-gradient(white, grey, rgb(7, 4, 4));
     font-family: 'roboto', sans-serif;
     color: black;
     margin-top: 20px;
@@ -156,7 +156,12 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-    background-color: #918b8b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1%;
+    border: 2px solid;
+    border-radius: 10%;
+    background-image: white;
+    margin-bottom: 6%;
 }
 
 .grid {
@@ -221,16 +226,17 @@
     height: 300px;
 }
 
-.separar {
-    background-color: #3b3b37;
-    padding: 10%;
+.novedades h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1%;
+    border: 2px solid;
+    border-radius: 10%;
+    background: #ccc;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
-.title {
-    font-size: 200%;
-    color: #ccc;
-    font-family: Arial, Helvetica, sans-serif
-}
 
 /*Fin Novedades*/
 
